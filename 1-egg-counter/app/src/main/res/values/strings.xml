@@ -2,4 +2,5 @@
     <string name="app_name">Egg Counter</string>
     <string name="egg_content_desc">Egg Image</string>
     <string name="counter_start">0</string>
+    <string name="reset_button">Reset</string>
 </resources>
