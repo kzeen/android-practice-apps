@@ -46,4 +46,8 @@ public class MainActivity extends AppCompatActivity {
         int counter = Integer.parseInt(tv_counter.getText().toString()) + 1;
         tv_counter.setText(String.valueOf(counter));
     }
+
+    private void resetCounter() {
+        tv_counter.setText("0");
+    }
 }
