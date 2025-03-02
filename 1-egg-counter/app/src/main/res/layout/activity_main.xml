@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background_color"
+    android:background="@color/background"
     tools:context=".MainActivity">
 
     <ImageView
@@ -26,6 +26,7 @@
         android:text="@string/counter_start"
         android:textStyle="bold"
         android:textSize="30sp"
+        android:textColor="@color/counter"
         android:layout_marginTop="30dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -2,5 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="background_color">#B9B032</color>
+    <color name="background">#F9BA32</color>
+    <color name="egg">#F8F1E5</color>
+    <color name="counter">#2F3131</color>
+    <color name="button">#426E86</color>
 </resources>
