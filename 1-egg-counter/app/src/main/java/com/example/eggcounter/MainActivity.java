@@ -37,4 +37,9 @@ public class MainActivity extends AppCompatActivity {
     private void addListeners() {
         iv_egg.setOnClickListener(v -> incrementCounter());
     }
+
+    private void incrementCounter() {
+        int counter = Integer.parseInt(tv_counter.getText().toString()) + 1;
+        tv_counter.setText(String.valueOf(counter));
+    }
 }
